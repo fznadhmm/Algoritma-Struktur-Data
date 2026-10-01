@@ -3,7 +3,7 @@ public class Buku extends Entity {
     private int jumlahHalaman;
 
     public Buku(String judul, String penulis, int jumlahHalaman){
-        setNama(judul);
+        super(judul);
         this.penulis = penulis;
         this.jumlahHalaman = jumlahHalaman;
     }
