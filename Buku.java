@@ -15,10 +15,7 @@ public class Buku extends Entity {
     public int getJumlahHalaman(){
         return jumlahHalaman;
     }
-    public void bacaBuku(){
-        System.out.println("Judul bukunya adalah " + getNama() + " karya " + penulis);
-    }
-
+   
     public void tampilkanDetail(){
         System.out.println("Buku: " + getNama() + " | Penulis" + penulis + " | Halaman " + jumlahHalaman);
     }

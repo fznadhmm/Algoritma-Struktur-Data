@@ -63,9 +63,12 @@ public class LinkedList {
     }
 
     public boolean search(Entity target) {
+        if (head == null || target == null) {
+            return false;
+        }
         Node current = head;
         while (current != null) {
-            if (current.data.equals(target)) {
+            if (current.data.getNama().equalsIgnoreCase(target.getNama())) {
                 return true;
             }
             current = current.next;
@@ -74,11 +77,17 @@ public class LinkedList {
     }
 
     public void display() {
-        Node current = head;
-        while (current != null) {
-            System.out.print("[" + current.data + "] -> ");
-            current = current.next;
-        }
+    if (head == null) {
         System.out.println("null");
+        return;
+    }
+
+    Node current = head;
+    while (current != null) {
+        System.out.print("[" + current.data.getNama() + "] -> ");
+        current = current.next;
+    }
+
+    System.out.println("null");
     }
 }
