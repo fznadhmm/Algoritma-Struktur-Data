@@ -2,9 +2,9 @@
 
 Program ini mengimplementasikan enam algoritma pengurutan data (sorting) pada **singly linked list** yang dibuat sendiri, tanpa memakai library bawaan Java untuk struktur data maupun sorting.
 
-- Nama : _isi nama_
-- NIM : _isi NIM_
-- Kelas : _isi kelas_
+- Nama  : Fauzan Adhim Mubarak
+- NIM   :  F1D02510113
+- Kelas :A
 
 ## Algoritma yang Diimplementasikan
 
